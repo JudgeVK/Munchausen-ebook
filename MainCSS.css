@@ -213,7 +213,7 @@ footer a {	margin-left: 5px; Z-INDEX:10;
 .Filler2 {	margin-left: 0%;}
 
 	#menu1{	position: fixed;
-			display: flex; Z-INDEX:13; height: 80%; max-width: 300px;
+			display: flex; Z-INDEX:12; height: 80%; max-width: 300px;
 			
 			 display: none;
 			 font-family: H3_1;
@@ -235,7 +235,7 @@ footer a {	margin-left: 5px; Z-INDEX:10;
 #menu1 a:hover{	color: #ffffff;}
 
 	#menu2{	position: fixed;
-			display: flex; Z-INDEX:13; height: 80%; max-width: 300px;
+			display: flex; Z-INDEX:12; height: 80%; max-width: 300px;
 			
 				display: none;	
 			/* border: 3px solid red;	*/	
@@ -308,8 +308,8 @@ header {	height: 7%;
 		align-items: center;}
 footer p {font-size: 20pt;}
 
-.menu img {width: 60px; margin-top: 0px;}
-.gear img {width: 60px; margin-top: 0px;}
+.menu img {width: 80px; margin-top: 0px;}
+.gear img {width: 80px; margin-top: 0px;}
 
 .Black {width: 100%;}
 .cen p {width: 80%;}
@@ -319,7 +319,7 @@ img {max-width: 98%;}
 #menu1 {	top: 7%;
 		max-width: 100%;
 		width: 100%;
-		height: 73%;
+		height: 80%;
 		flex-direction: column;
 		/* align-items: center; */
 		justify-content: center;
@@ -339,7 +339,7 @@ img {max-width: 98%;}
 #menu2 {	top: 7%;
 		max-width: 100%;
 		width: 100%;
-		height: 40%;
+		height: 60%;
 		flex-direction: column;
 		/* align-items: center; */
 		justify-content: center;
