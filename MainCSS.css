@@ -83,7 +83,7 @@ body::-webkit-scrollbar-thumb {
 		margin-top: 0px;
 		/* border: 1px solid green; */	}
 	
-	header { Z-INDEX:10;
+	header { Z-INDEX:13;
 		position:fixed;
 		background-color: black;
 		display: flex;
