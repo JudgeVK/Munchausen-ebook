@@ -96,7 +96,7 @@ function hideTS () {
 var kid=1;
 function ChangeKid(n){
 	kid=n;
-	name1 = String("file:///E:/Vasya/Laby/Диплом/_SITE/index.html#C"+kid);
+	name1 = String("https://munchausen-ebook.vercel.app/#C"+kid);
 	window.location = name1;
 	}
 
@@ -105,7 +105,7 @@ function IndeX(n){
 	if (kid<1)	{	kid=1; }
 	if (kid>37)	{	kid=37;	}
 	//kid = window.location;
-	name1 = String("file:///E:/Vasya/Laby/Диплом/_SITE/index.html#C"+kid);
+	name1 = String("https://munchausen-ebook.vercel.app/#C"+kid);
 	window.location = name1;
 
 	}
