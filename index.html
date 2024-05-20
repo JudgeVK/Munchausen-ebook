@@ -7,9 +7,9 @@
 <body>
 
 <header>
-<div class="menu" id="menu"> <img src="img/menu.png"> </div>
+<div id="menu" onclick="hide_m1()"	> <img src="img/menu.png"> </div>
 <font style = "font-family: p_1;"><font style = "font-family: H3_1;">Приключения Барона Мюнгхаузена</font> - оформлено @judgevk </font>
-<div class="gear" id="gear"> <img src="img/gear.png"> </div>
+<div id="gear" onclick="hide_m2()"	> <img src="img/gear.png"> </div>
 </header>
 
 
@@ -19,8 +19,10 @@
 <div class="line1"> <img src="img/line1.png"> </div>
 <div class="line2"> <img src="img/line2.png"> </div>
 
-<div class="arrowT" > <a href="#C1"> <img src="img/arrowTop.png"> </a> </div>
-<div class="arrowD" > <a href="#C37"> <img src="img/arrowBot.png"> </a> </div>
+<div class="arrowT2" onclick="ChangeKid(1)"	> <img src="img/arrowTop2.png"> </a> </div>
+<div class="arrowT" onclick="IndeX(-1)"	> <!-- <a href="#C1"> --> <img src="img/arrowTop.png"> </a> </div>
+<div class="arrowD" onclick="IndeX(1)" > <!-- <a href="#C37"> --> <img src="img/arrowBot.png"> </a> </div>
+<div class="arrowD2" onclick="ChangeKid(37)"	> <img src="img/arrowBot2.png"> </a> </div>
 
 <div id="menu1">
 	<div class="Incol">
@@ -33,43 +35,43 @@
 		</div>
 	
 	<ol>
-		<li> <a href="#C1">		Конь на крыше	</a> </li>
-		<li> <a href="#C2">		Волк, запряжённый в сани	</a> </li>
-		<li> <a href="#C3">		Искры из глаз	</a> </li>
-		<li> <a href="#C4">		Удивительная охота	</a> </li>
-		<li> <a href="#C5">		Куропатки на шомполе	</a> </li>
-		<li> <a href="#C6">		Лисица на иголке	</a> </li>
-		<li> <a href="#C7">		Слепая свинья	</a> </li>
-		<li> <a href="#C8">		Как я поймал кабана	</a> </li>
-		<li> <a href="#C9">		Необыкновенный олень	</a> </li>
-		<li> <a href="#C10">	Волк наизнанку	</a> </li>
-			<li> <a href="#C11">	Бешеная шуба	</a> </li>
-			<li> <a href="#C12">	Восьминогий заяц	</a> </li>
-			<li> <a href="#C13">	Чудесная куртка	</a> </li>
-			<li> <a href="#C14">	Конь на столе	</a> </li>
-			<li> <a href="#C15">	Полконя	</a> </li>
-			<li> <a href="#C16">	Верхом на ядре	</a> </li>
-			<li> <a href="#C17">	За волосы	</a> </li>
-			<li> <a href="#C18">	Пчелиный пастух и медведи	</a> </li>
-			<li> <a href="#C19">	Первое путешествие на луну	</a> </li>
-			<li> <a href="#C20">	Наказанная жадность	</a> </li>
-		<li> <a href="#C21">	Лошади под мышками, карета на плечах	</a> </li>
-		<li> <a href="#C22">	Оттаявшие звуки	</a> </li>
-		<li> <a href="#C23">	Буря	</a> </li>
-		<li> <a href="#C24">	Между крокодилом и львом	</a> </li>
-		<li> <a href="#C25">	Встреча с китом	</a> </li>
-		<li> <a href="#C26">	В желудке у рыбы	</a> </li>
-		<li> <a href="#C27">	Мои чудесные слуги	</a> </li>
-		<li> <a href="#C28">	Китайское вино	</a> </li>
-		<li> <a href="#C29">	Погоня	</a> </li>
-		<li> <a href="#C30">	Меткий выстрел	</a> </li>
-			<li> <a href="#C31">	Один против тысячи	</a> </li>
-			<li> <a href="#C32">	Человек-ядро	</a> </li>
-			<li> <a href="#C33">	Среди белых медведей	</a> </li>
-			<li> <a href="#C34">	Второе путешествие на луну	</a> </li>
-			<li> <a href="#C35">	Сырный остров	</a> </li>
-			<li> <a href="#C36">	Корабли, проглоченные рыбой	</a> </li>
-			<li> <a href="#C37">	Схватка с медведем	</a> </li>
+		<li> <a href="#C1" onclick="hideTS(), ChangeKid(1)"	>		Конь на крыше	</a> </li>
+		<li> <a href="#C2" onclick="hideTS(), ChangeKid(2)"	>		Волк, запряжённый в сани	</a> </li>
+		<li> <a href="#C3" onclick="hideTS(), ChangeKid(3)"	>		Искры из глаз	</a> </li>
+		<li> <a href="#C4" onclick="hideTS(), ChangeKid(4)"	>		Удивительная охота	</a> </li>
+		<li> <a href="#C5" onclick="hideTS(), ChangeKid(5)"	>		Куропатки на шомполе	</a> </li>
+		<li> <a href="#C6" onclick="hideTS(), ChangeKid(6)"	>		Лисица на иголке	</a> </li>
+		<li> <a href="#C7" onclick="hideTS(), ChangeKid(7)"	>		Слепая свинья	</a> </li>
+		<li> <a href="#C8" onclick="hideTS(), ChangeKid(8)"	>		Как я поймал кабана	</a> </li>
+		<li> <a href="#C9" onclick="hideTS(), ChangeKid(9)"	>		Необыкновенный олень	</a> </li>
+		<li> <a href="#C10" onclick="hideTS(), ChangeKid(10)"	>	Волк наизнанку	</a> </li>
+			<li> <a href="#C11" onclick="hideTS(), ChangeKid(11)"	>	Бешеная шуба	</a> </li>
+			<li> <a href="#C12" onclick="hideTS(), ChangeKid(12)"	>	Восьминогий заяц	</a> </li>
+			<li> <a href="#C13" onclick="hideTS(), ChangeKid(13)"	>	Чудесная куртка	</a> </li>
+			<li> <a href="#C14" onclick="hideTS(), ChangeKid(14)"	>	Конь на столе	</a> </li>
+			<li> <a href="#C15" onclick="hideTS(), ChangeKid(15)"	>	Полконя	</a> </li>
+			<li> <a href="#C16" onclick="hideTS(), ChangeKid(16)"	>	Верхом на ядре	</a> </li>
+			<li> <a href="#C17" onclick="hideTS(), ChangeKid(17)"	>	За волосы	</a> </li>
+			<li> <a href="#C18" onclick="hideTS(), ChangeKid(18)"	>	Пчелиный пастух и медведи	</a> </li>
+			<li> <a href="#C19" onclick="hideTS(), ChangeKid(19)"	>	Первое путешествие на луну	</a> </li>
+			<li> <a href="#C20" onclick="hideTS(), ChangeKid(20)"	>	Наказанная жадность	</a> </li>
+		<li> <a href="#C21"  onclick="hideTS(), ChangeKid(21)"	>	Лошади под мышками, карета на плечах	</a> </li>
+		<li> <a href="#C22" onclick="hideTS(), ChangeKid(22)"	>	Оттаявшие звуки	</a> </li>
+		<li> <a href="#C23" onclick="hideTS(), ChangeKid(23)"	>	Буря	</a> </li>
+		<li> <a href="#C24" onclick="hideTS(), ChangeKid(24)"	>	Между крокодилом и львом	</a> </li>
+		<li> <a href="#C25" onclick="hideTS(), ChangeKid(25)"	>	Встреча с китом	</a> </li>
+		<li> <a href="#C26" onclick="hideTS(), ChangeKid(26)"	>	В желудке у рыбы	</a> </li>
+		<li> <a href="#C27" onclick="hideTS(), ChangeKid(27)"	>	Мои чудесные слуги	</a> </li>
+		<li> <a href="#C28" onclick="hideTS(), ChangeKid(28)"	>	Китайское вино	</a> </li>
+		<li> <a href="#C29" onclick="hideTS(), ChangeKid(29)"	>	Погоня	</a> </li>
+		<li> <a href="#C30" onclick="hideTS(), ChangeKid(30)"	>	Меткий выстрел	</a> </li>
+			<li> <a href="#C31" onclick="hideTS(), ChangeKid(31)"	>	Один против тысячи	</a> </li>
+			<li> <a href="#C32" onclick="hideTS(), ChangeKid(32)"	>	Человек-ядро	</a> </li>
+			<li> <a href="#C33" onclick="hideTS(), ChangeKid(33)"	>	Среди белых медведей	</a> </li>
+			<li> <a href="#C34" onclick="hideTS(), ChangeKid(34)"	>	Второе путешествие на луну	</a> </li>
+			<li> <a href="#C35" onclick="hideTS(), ChangeKid(35)"	>	Сырный остров	</a> </li>
+			<li> <a href="#C36" onclick="hideTS(), ChangeKid(36)"	>	Корабли, проглоченные рыбой	</a> </li>
+			<li> <a href="#C37" onclick="hideTS(), ChangeKid(37)"	>	Схватка с медведем	</a> </li>
 	<ol>
 	</div>
 </div>
@@ -79,30 +81,30 @@
 	<div class="InCol">
 	<h3>Иллюстрации:</h3>
 	<div class="InLine">
-		<button id="b1" onclick>	Цветные	</button>
-		<button id="b2" >	Ч/Б		</button>
+		<button id="b1" onclick="hideTS()"	>	Цветные	</button>
+		<button id="b2" onclick="hideTS()"	>	Ч/Б		</button>
 	</div>
 	<h3>Шрифт:</h3>
 	<div class="InLine">
 	<div class="InCol">
-		<button id="b3" onclick="font_ch(3,10)"	>	10	</button>
-		<button id="b4" onclick="font_ch(4,12)"	>	12	</button>
-		<button id="b5" onclick="font_ch(5,14)"	>	14	</button>
-		<button id="b6" onclick="font_ch(6,16)"	>	16	</button>
+		<button id="b3" onclick="font_ch(3,10), hideTS()"	>	10	</button>
+		<button id="b4" onclick="font_ch(4,12), hideTS()"	>	12	</button>
+		<button id="b5" onclick="font_ch(5,14), hideTS()"	>	14	</button>
+		<button id="b6" onclick="font_ch(6,16), hideTS()"	>	16	</button>
 	</div>
 	<div class="InCol">
-		<button id="b7" onclick="font_ch(7,18)"	>	18	</button>
-		<button id="b8" onclick="font_ch(8,20)"	>	20	</button>
-		<button id="b9" onclick="font_ch(9,24)"	>	24	</button>
-		<button id="b10" onclick="font_ch(10,30)"	>	30	</button>
+		<button id="b7" onclick="font_ch(7,18), hideTS()"	>	18	</button>
+		<button id="b8" onclick="font_ch(8,20), hideTS()"	>	20	</button>
+		<button id="b9" onclick="font_ch(9,24), hideTS()"	>	24	</button>
+		<button id="b10" onclick="font_ch(10,30), hideTS()"	>	30	</button>
 	</div>
 	</div>
 	<div class="InCol">
-			<button id="b11" onclick="font_fam(1)" >	Inter	</button>
-			<button id="b12" onclick="font_fam(2)" >	Courier New	</button>
-			<button id="b13" onclick="font_fam(3)" >	Times New Roman	</button>
-			<button id="b14" onclick="font_fam(4)" >	Roboto	</button>
-			<button id="b15" onclick="font_fam(5)" >	Calibri	</button>
+			<button id="b11" onclick="font_fam(1), hideTS()" >	Inter	</button>
+			<button id="b12" onclick="font_fam(2), hideTS()" >	Courier New	</button>
+			<button id="b13" onclick="font_fam(3), hideTS()" >	Times New Roman	</button>
+			<button id="b14" onclick="font_fam(4), hideTS()" >	Roboto	</button>
+			<button id="b15" onclick="font_fam(5), hideTS()" >	Calibri	</button>
 	</div>
 	<div class="Filler1""></div>
 	<div class="InLine">	
