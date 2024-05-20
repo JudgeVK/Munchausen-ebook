@@ -319,8 +319,8 @@ header {	height: 7%;
 		align-items: center;}
 footer p {font-size: 20pt;}
 
-.menu img {width: 80px; margin-top: 0px;}
-.gear img {width: 80px; margin-top: 0px;}
+#menu img {width: 80px; margin-top: 0px;}
+#gear img {width: 80px; margin-top: 0px;}
 
 .Black {width: 100%;}
 .cen p {width: 80%;}
