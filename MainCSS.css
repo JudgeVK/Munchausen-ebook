@@ -290,6 +290,7 @@ button:hover {background-color: #FFC964;
 	
 	img { Z-INDEX:8;
 		max-width: 700px;
+		max-height: 600px;
 		margin-top: 10px;
 		margin-bottom: 20px;
 		border: 7px solid black;
