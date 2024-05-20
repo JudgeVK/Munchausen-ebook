@@ -18,6 +18,7 @@ function hide_m2(){
 				m2.style.display = "none";};				}
 // Illustrations i1
 	document.getElementById("b1").onclick = function hide_i2(){
+		hideTS();
 document.getElementsByClassName('fish')[0].style.display = "block";
 document.body.style.backgroundColor = "#FFC964";
 document.getElementsByClassName('yell')[0].style.backgroundColor = "#FFC964";
@@ -32,7 +33,7 @@ document.getElementsByClassName('img2')[i].style.display = "none";
 																}	}
 // Illustrations i2															
 	document.getElementById("b2").onclick = function hide_i1(){
-
+		hideTS();
 document.getElementsByClassName('fish')[0].style.display = "none";
 document.body.style.backgroundColor = "white";
 document.getElementsByClassName('yell')[0].style.backgroundColor = "white";
