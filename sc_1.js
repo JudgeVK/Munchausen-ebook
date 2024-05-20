@@ -1,13 +1,17 @@
 // FILTER menu1
-document.getElementById("menu").onclick = function hide_m1(){
-			var m1 = document.getElementById("menu1");
+var m1 = document.getElementById("menu1");
+m1.style.display = "none";
+			
+function hide_m1(){
 			if (m1.style.display == "none"){
 				m1.style.display = "flex";}
 			else{
 				m1.style.display = "none";};				}
 // FILTER menu2
-document.getElementById("gear").onclick = function hide_m2(){
-			var m2 = document.getElementById("menu2");
+var m2 = document.getElementById("menu2");
+m2.style.display = "none";
+			
+function hide_m2(){
 			if (m2.style.display == "none"){
 				m2.style.display = "flex";}
 			else{
@@ -45,6 +49,7 @@ document.getElementsByClassName('img2')[i].style.display = "block";
 // Font Size 
 	function font_ch(bet,s){
 var siz = String(s+"pt");
+var siz2 = String(s+4+"pt");
 document.getElementsByClassName('cen')[0].style.fontSize = siz;
 
 document.getElementById("b3").style.border = '1px solid white';
@@ -57,7 +62,11 @@ document.getElementById("b9").style.border = '1px solid white';
 document.getElementById("b10").style.border = '1px solid white';
 
 var nam = String("b"+bet);
-document.getElementById(nam).style.border = '3px solid white';	}
+document.getElementById(nam).style.border = '3px solid white';
+
+for (i=0;i<document.getElementsByClassName('he3').length;i++){
+document.getElementsByClassName('he3')[i].style.fontSize = siz2;
+																}	}
 
 // Font Family
 	function font_fam(f){
@@ -76,11 +85,37 @@ document.getElementById(nam).style.border = '3px solid white';	}
 	
 	document.getElementById(n).style.border = '3px solid white';
 						}
-// Defaults
+// Hiders a at left and right
+function hideTS () {
+	var m1 = document.getElementById("menu1");
+	m1.style.display = "none";
+	var m2 = document.getElementById("menu2");
+	m2.style.display = "none";
+	}
+// Funks for arrows
+var kid=1;
+function ChangeKid(n){
+	kid=n;
+	name1 = String("file:///E:/Vasya/Laby/Диплом/_SITE/index.html#C"+kid);
+	window.location = name1;
+	}
+
+function IndeX(n){
+	kid = kid+n;
+	if (kid<1)	{	kid=1; }
+	if (kid>37)	{	kid=37;	}
+	//kid = window.location;
+	name1 = String("file:///E:/Vasya/Laby/Диплом/_SITE/index.html#C"+kid);
+	window.location = name1;
+
+	}
+
+
+
+
 /*
-document.getElementById("b1").style.border = '3px solid white';
-document.getElementById("b4").style.border = '3px solid white';
-document.getElementById("b11").style.border = '3px solid white';	*/
+
+*/
 
 
 
