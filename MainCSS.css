@@ -380,7 +380,7 @@ hr {display: none;}
 .cen {margin-top: 14%;}
 .fish {margin-top: -14%;}
 
-/* .arrowT, .arrowT2, .arrowD , .arrowD 2{width: 9%; opacity: 10%; right: 3px;} */
+.arrowT, .arrowT2, .arrowD , .arrowD2{width: 9%; opacity: 10%; right: 3px;}
 
 .foot {width: 80%; display: flex;
 		justify-content: center;
