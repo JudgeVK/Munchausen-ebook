@@ -327,7 +327,8 @@ footer p {font-size: 20pt;}
 .cen p {width: 80%;}
 .Filler1 {	margin-top: 7%;}
 .Filler2 {	margin-left: 3%;}
-img {max-width: 98%;}
+img {max-width: 98%;
+    max-height: 100%;}
 #menu1 {	top: 7%;
 		max-width: 100%;
 		width: 100%;
