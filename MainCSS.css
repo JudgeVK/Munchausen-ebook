@@ -139,12 +139,13 @@ footer a {	margin-left: 5px; Z-INDEX:10;
 		border-bottom: 100px solid #FFC964;
 		}
 
-.he3 {font-family: H3_1;}
+.he3 {	font-family: H3_1;
+		font-size: 16pt;}
 
-.menu img{	border:none; border-radius:0px; width: 35px; margin: -5px;		}
-.menu:hover {opacity: 50%;}
-.gear img{	border:none; border-radius:0px; width: 35px; margin: -4px;		}
-.gear:hover {opacity: 50%;}
+#menu img{	border:none; border-radius:0px; width: 35px; margin: -5px;		}
+#menu:hover {opacity: 50%;}
+#gear img{	border:none; border-radius:0px; width: 35px; margin: -4px;		}
+#gear:hover {opacity: 50%;}
 
 .fish{	position:absolute; Z-INDEX:4;
 		height: 610px;
@@ -168,13 +169,11 @@ footer a {	margin-left: 5px; Z-INDEX:10;
 .cen p {width: 660px;}
 .losa img{border: none;}
 .losa {	display: block;}
-/*.losa2 {	background: url('img/loza1.png') no-repeat center center;
-		background-size: container;
-		width: 100%;			}	*/
-.line1 {Z-INDEX:1; position:fixed;
+
+.line1 {Z-INDEX:1; position:fixed; display: none;
 		top: 100px;
 		left: 22%;		}
-.line2 {Z-INDEX:1; position:fixed;
+.line2 {Z-INDEX:1; position:fixed; display: none;
 		top: 100px;
 		right: 22%;		}
 .line1  img {border: none; height: 500px;}
@@ -193,10 +192,21 @@ footer a {	margin-left: 5px; Z-INDEX:10;
 .arrowD:hover{opacity: 100%;}
 .arrowD img {width: 100%; border: none;	}
 
+.arrowD2{width: 40px; position: fixed; Z-INDEX:12;
+		right: 20px; top: 57%;	opacity: 33%;}
+.arrowD2:hover{opacity: 100%;}
+.arrowD2 img {width: 100%; border: none;	}
+
+
 .arrowT{width: 40px; position: fixed; Z-INDEX:12;
 		right: 20px; top: 40%;	opacity: 33%;}
 .arrowT:hover{opacity: 100%;}
 .arrowT img {width: 100%; border: none;	}
+
+.arrowT2{width: 40px; position: fixed; Z-INDEX:12;
+		right: 20px; top: 33%;	opacity: 33%;}
+.arrowT2:hover{opacity: 100%;}
+.arrowT2 img {width: 100%; border: none;	}
 
 /*.filler{	background-color: #FFC964; Z-INDEX:10;
 			width: 100%;
@@ -212,8 +222,9 @@ footer a {	margin-left: 5px; Z-INDEX:10;
 .Filler1 {	margin-top: 30%;}
 .Filler2 {	margin-left: 0%;}
 
-	#menu1{	position: fixed;
-			display: flex; Z-INDEX:12; height: 80%; max-width: 300px;
+#menu1{	position: fixed;
+			/* display: flex; */
+			Z-INDEX:12; height: 80%; max-width: 300px;
 			
 			 display: none;
 			 font-family: H3_1;
@@ -235,7 +246,8 @@ footer a {	margin-left: 5px; Z-INDEX:10;
 #menu1 a:hover{	color: #ffffff;}
 
 	#menu2{	position: fixed;
-			display: flex; Z-INDEX:12; height: 80%; max-width: 300px;
+			/* display: flex; */
+			Z-INDEX:12; height: 80%; max-width: 300px;
 			
 				display: none;	
 			/* border: 3px solid red;	*/	
@@ -261,8 +273,7 @@ footer a {	margin-left: 5px; Z-INDEX:10;
 #menu2 .InLine{margin: 0px;} */
 
 
-#menu{}
-#gear{}
+
 
 #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9, #b10  {width: 80px;}
 
@@ -369,7 +380,7 @@ hr {display: none;}
 .cen {margin-top: 14%;}
 .fish {margin-top: -14%;}
 
-.arrowT, .arrowD {width: 9%; opacity: 10%; right: 3px;}
+.arrowT, .arrowT2, .arrowD , .arrowD 2{width: 9%; opacity: 10%; right: 3px;}
 
 .foot {width: 80%; display: flex;
 		justify-content: center;
