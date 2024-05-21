@@ -151,7 +151,7 @@ footer a {	margin-left: 5px; Z-INDEX:10;
 		height: 610px;
 		width: 100%;
 		overflow-x:none;
-		background: url('img 1/21.jpg') no-repeat center center fixed;
+		background: url('img 1/Fish.jpg') no-repeat center center fixed;
 		background-size: cover;
 		display:flex;justify-content: center;align-items:center;flex-direction:column;}
 .fon{	position:absolute; Z-INDEX:3;
@@ -161,7 +161,7 @@ footer a {	margin-left: 5px; Z-INDEX:10;
 		/* border: 1px solid blue; */	}
 		
 .bl {background-color: black;
-	opacity: 50%;
+	opacity: 30%;
 	width: 100%;
 	height: 100%;}
 .cen{display: flex;
